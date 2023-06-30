@@ -1,0 +1,16 @@
+{
+    "bail": 1,
+    "verbose": true,
+    "transform": {
+        "^.+\\.[t|j]sx?$": "babel-jest"
+    },
+    "testEnvironment": "jsdom",
+    "collectCoverage": true,
+    "rootDir": "./",
+    "coverageThreshold": {
+      "global": {
+        "statements": 100,
+        "branches": 100
+      }
+    }
+}
